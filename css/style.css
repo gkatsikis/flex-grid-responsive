@@ -135,7 +135,7 @@ main {
     color: gray;
     border-left: 3px solid limegreen;
     text-align: center;
-    margin: 0 30px 0 30px
+    margin: 0 30px 0 30px;
   }
 
   #contact {
@@ -144,9 +144,7 @@ main {
 
   #offer {
     grid-area: offer;
+    margin: 0;
   }
   
-  #name, #occupation, #brand, #offer {
-    background-color: lightgray;
-  }
 }
